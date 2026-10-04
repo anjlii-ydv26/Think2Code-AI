@@ -1,7 +1,6 @@
 streamlit
 flask
 flask-cors
-requests
 numpy
 pandas
 torch

@@ -19,7 +19,7 @@ from flask_cors import CORS
 PROJECT_DIR = Path(__file__).resolve().parent
 KNOWLEDGE_DIR = PROJECT_DIR / "knowledge_base"
 
-LOCAL_MODEL = "Qwen/Qwen2.5-1.5B-Instruct"
+LOCAL_MODEL = os.environ.get("THINK2CODE_MODEL", "Qwen/Qwen2.5-1.5B-Instruct")
 
 HOST = os.getenv("THINK2CODE_HOST", "127.0.0.1")
 PORT = int(os.getenv("THINK2CODE_PORT", "5000"))
