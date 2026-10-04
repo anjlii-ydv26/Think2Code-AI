@@ -2,7 +2,7 @@
 import os
 
 # Use the smaller model for Streamlit Community Cloud.
-os.environ["THINK2CODE_MODEL"] = "Qwen/Qwen2.5-0.5B-Instruct"
+os.environ["THINK2CODE_MODEL"] = "HuggingFaceTB/SmolLM2-135M-Instruct"
 
 import streamlit as st
 
