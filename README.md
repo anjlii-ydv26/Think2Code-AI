@@ -1,5 +1,13 @@
 # Think2Code AI
 
+## 🚀 Live Demo
+
+Try Think2Code AI directly in your browser:
+
+[![Open Live Demo](https://img.shields.io/badge/🚀_Try_Live_Demo-Think2Code_AI-FF4B4B?style=for-the-badge)](https://think2code-ai-development.streamlit.app/)
+
+No installation required. Explore problem understanding, progressive hints,
+code-line explanations, and final solution generation.
 ## An AI-Powered Interactive Programming Reasoning and Learning Platform
 
 > From Problem to Program — Learn to think before you code.
