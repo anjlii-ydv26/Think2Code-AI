@@ -1,0 +1,26 @@
+
+Python Lists
+
+A list is a collection that can store multiple values.
+
+Example:
+numbers = [5, 8, 2, 10]
+
+Individual elements can be accessed using their index.
+
+Example:
+numbers[0]
+
+This returns the first element of the list.
+
+Lists are useful when a problem contains multiple related values.
+
+A list can be processed using a loop.
+
+Example:
+for number in numbers:
+    print(number)
+
+When solving a problem, identify whether the input contains a
+collection of values. If it does, a list or another collection
+structure may be appropriate.

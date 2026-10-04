@@ -1,0 +1,11 @@
+streamlit
+flask
+flask-cors
+requests
+numpy
+pandas
+torch
+transformers
+accelerate
+sentence-transformers
+faiss-cpu

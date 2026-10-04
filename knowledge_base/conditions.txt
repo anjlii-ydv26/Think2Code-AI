@@ -1,0 +1,25 @@
+
+Python Conditions
+
+Conditional statements allow a program to make decisions.
+
+The main conditional statement in Python is if.
+
+Example:
+if age >= 18:
+    print("Adult")
+
+The condition is checked first. If it is true, the statements inside
+the if block are executed.
+
+An else block can be used when another action is required if the
+condition is false.
+
+Example:
+if marks >= 40:
+    print("Pass")
+else:
+    print("Fail")
+
+Conditions are useful when a program needs to compare values,
+check a situation, or choose between different actions.

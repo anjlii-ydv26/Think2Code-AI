@@ -1,0 +1,22 @@
+
+Python Variables
+
+A variable is a name used to store a value so that the value can be
+used later in a program.
+
+Example:
+age = 20
+
+Here, age is the variable and 20 is its value.
+
+Variables are useful when a program needs to remember information,
+perform calculations, compare values, or update information.
+
+Example:
+total = 0
+
+A variable can also be updated:
+total = total + 5
+
+When designing a program, identify what information needs to be
+remembered and create variables for those values.

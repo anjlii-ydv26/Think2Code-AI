@@ -1,0 +1,41 @@
+
+Common Python Programming Mistakes
+
+1. Incorrect condition
+
+A student may write:
+if number < largest:
+
+when the intention is to update largest when number is greater.
+The correct comparison may be:
+if number > largest:
+
+2. Incorrect initialization
+
+A variable should be initialized with a value appropriate for the
+problem.
+
+For finding the largest value in a list, using the first list
+element as the initial largest value is generally safer than
+always using zero because the list may contain negative numbers.
+
+Example:
+largest = numbers[0]
+
+3. Forgetting repetition
+
+If every element of a list must be examined, the program generally
+needs a loop.
+
+4. Confusing assignment and comparison
+
+The = operator assigns a value.
+The == operator checks whether two values are equal.
+
+5. Forgetting to update a variable
+
+If a variable represents a changing value, it must be updated
+when the required condition occurs.
+
+Debugging should focus on understanding what each variable,
+condition, and loop is supposed to accomplish.

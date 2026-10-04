@@ -1,0 +1,22 @@
+
+Python Functions
+
+A function is a reusable block of code designed to perform a
+specific task.
+
+Example:
+def add(a, b):
+    return a + b
+
+The function can be called using:
+result = add(5, 3)
+
+Functions are useful for dividing a large problem into smaller
+logical tasks.
+
+A function can accept inputs called parameters and can return
+a result.
+
+When solving a problem, consider using a function when a particular
+operation represents a separate logical task or may need to be
+reused.

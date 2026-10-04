@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment / secrets
+.env
+.env.*
+*.key
+*.pem
+
+# Hugging Face / model caches
+.cache/
+huggingface/
+transformers_cache/
+sentence_transformers/
+
+# Large model files
+*.bin
+*.safetensors
+*.pt
+*.pth
+*.ckpt
+
+# Logs
+*.log
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Temporary files
+tmp/
+temp/
+
+# Colab
+/content/
+
+# Local backup
+app_backup.py
+
+# OS
+.DS_Store
+Thumbs.db

@@ -1,0 +1,28 @@
+
+Python Loops
+
+Loops are used when an operation needs to be repeated.
+
+A for loop is commonly used to process each item in a sequence.
+
+Example:
+for number in numbers:
+    print(number)
+
+The loop takes each value from numbers one at a time and executes
+the statements inside the loop.
+
+A loop is useful when a problem requires the program to examine
+multiple values or repeat an operation.
+
+Example:
+numbers = [5, 8, 2, 10]
+
+for number in numbers:
+    if number > 5:
+        print(number)
+
+When solving a programming problem, ask:
+"Does this operation need to happen repeatedly?"
+
+If the answer is yes, a loop may be required.
